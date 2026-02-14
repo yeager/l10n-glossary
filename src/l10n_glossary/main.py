@@ -31,7 +31,7 @@ class GlossaryWindow(Adw.ApplicationWindow):
     """Main application window."""
 
     def __init__(self, **kwargs):
-        super().__init__(**kwargs)
+        super().__init__(default_width=900, default_height=700, **kwargs)
         self.glossary = Glossary()
         self.current_file = None
         self.filtered_terms = []
