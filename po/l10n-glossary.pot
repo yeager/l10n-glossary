@@ -245,3 +245,7 @@ msgstr ""
 #, python-brace-format
 msgid "Unsupported format: {}"
 msgstr ""
+
+#: desktop file
+msgid "glossary;localization;l10n;translation;terms;"
+msgstr ""

@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=Glossary Editor
+_Comment=Manage localization glossaries and flag inconsistencies
+Exec=l10n-glossary
+Icon=l10n-glossary
+Terminal=false
+Type=Application
+Categories=Development;Translation;
+_Keywords=glossary;localization;l10n;translation;terms;
