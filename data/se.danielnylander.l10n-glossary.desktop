@@ -2,7 +2,7 @@
 Name=Glossary Editor
 Comment=Manage localization glossaries and flag inconsistencies
 Exec=l10n-glossary
-Icon=accessories-dictionary
+Icon=l10n-glossary
 Terminal=false
 Type=Application
 Categories=Development;Translation;

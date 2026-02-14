@@ -552,14 +552,15 @@ class GlossaryWindow(Adw.ApplicationWindow):
     def _on_about(self, *args):
         about = Adw.AboutDialog.new()
         about.set_application_name(_("Glossary Editor"))
+        about.set_application_icon("l10n-glossary")
         about.set_version("0.1.0")
         about.set_developer_name("Daniel Nylander")
         about.set_license_type(Gtk.License.GPL_3_0)
-        about.set_comments(
-            _("Manage localization glossaries and flag inconsistencies"))
+        about.set_comments(_("A localization tool by Daniel Nylander"))
         about.set_website("https://github.com/yeager/l10n-glossary")
         about.set_issue_url("https://github.com/yeager/l10n-glossary/issues")
         about.set_developers(["Daniel Nylander <daniel@danielnylander.se>"])
+        about.set_translator_credits(_("Translate this app: https://app.transifex.com/linguaedit/l10n-glossary/"))
         about.present(self)
 
 
