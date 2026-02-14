@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[o:linguaedit:p:l10n-glossary:r:l10n-glossary-pot]
+[o:danielnylander:p:l10n-glossary:r:l10n-glossary-pot]
 file_filter = po/<lang>.po
 source_file = po/l10n-glossary.pot
 source_lang = en

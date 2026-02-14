@@ -560,7 +560,7 @@ class GlossaryWindow(Adw.ApplicationWindow):
         about.set_website("https://github.com/yeager/l10n-glossary")
         about.set_issue_url("https://github.com/yeager/l10n-glossary/issues")
         about.set_developers(["Daniel Nylander <daniel@danielnylander.se>"])
-        about.set_translator_credits(_("Translate this app: https://app.transifex.com/linguaedit/l10n-glossary/"))
+        about.set_translator_credits(_("Translate this app: https://app.transifex.com/danielnylander/l10n-glossary/"))
         about.present(self)
 
 
