@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68.0", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "l10n-glossary"
+version = "0.1.0"
+description = "Glossary editor for localization — manage term lists, flag inconsistencies"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+requires-python = ">=3.10"
+authors = [
+    {name = "Daniel Nylander", email = "daniel@danielnylander.se"},
+]
+keywords = ["localization", "l10n", "glossary", "translation", "gtk"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: X11 Applications :: GTK",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "PyGObject>=3.42",
+    "lxml>=4.9",
+]
+
+[project.scripts]
+l10n-glossary = "l10n_glossary.main:main"
+
+[project.urls]
+Homepage = "https://github.com/yeager/l10n-glossary"
+Repository = "https://github.com/yeager/l10n-glossary"
+Issues = "https://github.com/yeager/l10n-glossary/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
