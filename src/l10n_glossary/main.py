@@ -31,13 +31,16 @@ class GlossaryWindow(Adw.ApplicationWindow):
     """Main application window."""
 
     def __init__(self, **kwargs):
-        super().__init__(default_width=900, default_height=700, **kwargs)
+        kwargs.pop("default_width", None)
+        kwargs.pop("default_height", None)
+        super().__init__(**kwargs)
         self.glossary = Glossary()
         self.current_file = None
         self.filtered_terms = []
 
         self.set_title(_("Glossary Editor"))
         self.set_default_size(900, 600)
+        self.set_size_request(600, 400)
 
         self._build_ui()
         self._refresh_list()
