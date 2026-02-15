@@ -4,8 +4,10 @@
 
 """Main entry point for Glossary Editor."""
 
+import csv
 import sys
 import gettext
+import json
 import locale
 import os
 
@@ -114,6 +116,12 @@ class GlossaryWindow(Adw.ApplicationWindow):
                                      tooltip_text="Toggle dark/light theme")
         self._theme_btn.connect("clicked", self._on_theme_toggle)
         header.pack_end(self._theme_btn)
+
+        # Export button
+        export_btn = Gtk.Button(icon_name="document-save-symbolic",
+                                tooltip_text=_("Export data"))
+        export_btn.connect("clicked", self._on_export_clicked)
+        header.pack_end(export_btn)
 
         # Add term button
         add_button = Gtk.Button(icon_name="list-add-symbolic")
@@ -303,6 +311,44 @@ class GlossaryWindow(Adw.ApplicationWindow):
         if model and idx < model.get_n_items():
             lang = model.get_string(idx)
         self._refresh_list(search_text, lang)
+
+    def _on_export_clicked(self, *_args):
+        dialog = Adw.MessageDialog(transient_for=self,
+                                   heading=_("Export Data"),
+                                   body=_("Choose export format:"))
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("csv", "CSV")
+        dialog.add_response("json", "JSON")
+        dialog.set_response_appearance("csv", Adw.ResponseAppearance.SUGGESTED)
+        dialog.connect("response", self._on_export_format_chosen)
+        dialog.present()
+
+    def _on_export_format_chosen(self, dialog, response):
+        if response not in ("csv", "json"):
+            return
+        self._export_fmt = response
+        fd = Gtk.FileDialog()
+        fd.set_initial_name(f"glossary.{response}")
+        fd.save(self, None, self._on_export_save)
+
+    def _on_export_save(self, dialog, result):
+        try:
+            path = dialog.save_finish(result).get_path()
+        except Exception:
+            return
+        data = [{"source": t.source, "target": t.target, "language": t.language,
+                 "context": t.context, "comment": t.comment}
+                for t in self.glossary.terms]
+        if not data:
+            return
+        if self._export_fmt == "csv":
+            with open(path, "w", newline="", encoding="utf-8") as f:
+                w = csv.DictWriter(f, fieldnames=data[0].keys())
+                w.writeheader()
+                w.writerows(data)
+        else:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
 
     def _on_add_term(self, button):
         self._show_term_dialog(None)
@@ -633,9 +679,11 @@ class GlossaryApp(Adw.Application):
         self.set_accels_for_action("app.quit", ["<Control>q"])
         self.set_accels_for_action("app.refresh", ["F5"])
         self.set_accels_for_action("app.shortcuts", ["<Control>slash"])
+        self.set_accels_for_action("app.export", ["<Control>e"])
         for n, cb in [("quit", lambda *_: self.quit()),
                       ("refresh", lambda *_: self._do_refresh()),
-                      ("shortcuts", self._show_shortcuts_window)]:
+                      ("shortcuts", self._show_shortcuts_window),
+                      ("export", lambda *_: self.get_active_window() and self.get_active_window()._on_export_clicked())]:
             a = Gio.SimpleAction.new(n, None); a.connect("activate", cb); self.add_action(a)
 
     def _do_refresh(self):
