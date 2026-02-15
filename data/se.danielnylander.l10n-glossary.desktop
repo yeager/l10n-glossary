@@ -1,6 +1,5 @@
 [Desktop Entry]
 Name=Glossary Editor
-Name[sv]=Ordboksredigerare
 Comment=Manage localization glossaries and flag inconsistencies
 Exec=l10n-glossary
 Icon=l10n-glossary
