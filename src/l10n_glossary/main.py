@@ -43,6 +43,18 @@ class GlossaryWindow(Adw.ApplicationWindow):
         self.set_size_request(600, 400)
 
         self._build_ui()
+
+        # Add sample terms so the view isn't empty on first launch
+        if len(self.glossary.terms) == 0:
+            for src, tgt, ctx, cmt in [
+                ("Hello", "Hej", "", "Common greeting"),
+                ("File", "Fil", "menu", "Menu item"),
+                ("Save", "Spara", "action", ""),
+                ("Open", "Öppna", "action", ""),
+                ("Error", "Fel", "dialog", "Error message title"),
+            ]:
+                self.glossary.terms.append(Term(src, tgt, "sv", ctx, cmt))
+
         self._refresh_list()
 
     def _build_ui(self):
@@ -168,19 +180,6 @@ class GlossaryWindow(Adw.ApplicationWindow):
         scrolled.set_child(self.column_view)
         scrolled.set_size_request(600, 300)
         main_box.append(scrolled)
-
-        # Add sample terms so the view isn't empty on first launch
-        sample_terms = [
-            Term("Hello", "Hej", "sv", "", "Common greeting"),
-            Term("File", "Fil", "sv", "menu", "Menu item"),
-            Term("Save", "Spara", "sv", "action", ""),
-            Term("Open", "Öppna", "sv", "action", ""),
-            Term("Error", "Fel", "sv", "dialog", "Error message title"),
-        ]
-        if len(self.glossary.terms) == 0:
-            for t in sample_terms:
-                self.glossary.terms.append(t)
-            self._refresh_list()
 
         # Status bar
         self.status_label = Gtk.Label(label=_("No glossary loaded"))
