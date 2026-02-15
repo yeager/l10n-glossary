@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "l10n-glossary"
-version = "0.2.4"
+version = "0.2.5"
 description = "Glossary editor for localization — manage term lists, flag inconsistencies"
 readme = "README.md"
 license = "GPL-3.0-or-later"
