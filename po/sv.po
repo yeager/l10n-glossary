@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: l10n-glossary 0.1.0\n"
+"Project-Id-Version: l10n-glossary\n"
 "Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
-"POT-Creation-Date: 2026-02-14 10:05+0100\n"
+"POT-Creation-Date: 2026-02-15 09:49+0100\n"
 "PO-Revision-Date: 2026-02-14 09:50+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304764/sv/)\n"
@@ -20,225 +20,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: src/l10n_glossary/main.py:39 src/l10n_glossary/main.py:370
-#: src/l10n_glossary/main.py:390 src/l10n_glossary/main.py:412
-#: src/l10n_glossary/main.py:554
-msgid "Glossary Editor"
-msgstr "Ordboksredigerare"
-
-#: src/l10n_glossary/main.py:59
-msgid "New Glossary"
-msgstr "Ny ordbok"
-
-#: src/l10n_glossary/main.py:60
-msgid "Open…"
-msgstr "Öppna..."
-
-#: src/l10n_glossary/main.py:61 src/l10n_glossary/main.py:303
-msgid "Save"
-msgstr "Spara"
-
-#: src/l10n_glossary/main.py:62
-msgid "Save As…"
-msgstr "Spara som..."
-
-#: src/l10n_glossary/main.py:65
-msgid "Import from PO…"
-msgstr "Importera från PO..."
-
-#: src/l10n_glossary/main.py:66
-msgid "Import from TS…"
-msgstr "Importera från TS..."
-
-#: src/l10n_glossary/main.py:67
-msgid "Merge Glossary…"
-msgstr "Slå samman ordböcker..."
-
-#: src/l10n_glossary/main.py:68
-msgid "Import"
-msgstr "Importera"
-
-#: src/l10n_glossary/main.py:71
-msgid "Export as TBX…"
-msgstr "Exportera som TBX…"
-
-#: src/l10n_glossary/main.py:72
-msgid "Export as CSV…"
-msgstr "Exportera som CSV…"
-
-#: src/l10n_glossary/main.py:73
-msgid "Export as TSV…"
-msgstr "Exportera som TSV…"
-
-#: src/l10n_glossary/main.py:74
-msgid "Export"
-msgstr "Exportera"
-
-#: src/l10n_glossary/main.py:77
-msgid "Check Consistency…"
-msgstr "Kontrollera konsistens..."
-
-#: src/l10n_glossary/main.py:78
-msgid "Tools"
-msgstr "Verktyg"
-
-#: src/l10n_glossary/main.py:81
-msgid "About"
-msgstr "Om"
-
-#: src/l10n_glossary/main.py:89 src/l10n_glossary/main.py:290
-msgid "Add Term"
-msgstr "Lägg till term"
-
-#: src/l10n_glossary/main.py:95
-msgid "Search terms…"
-msgstr "Sök efter termer..."
-
-#: src/l10n_glossary/main.py:106 src/l10n_glossary/main.py:244
-#: src/l10n_glossary/main.py:262
-msgid "All Languages"
-msgstr "Alla språk"
-
-#: src/l10n_glossary/main.py:129
-msgid "Source"
-msgstr "Källa"
-
-#: src/l10n_glossary/main.py:137
-msgid "Target"
-msgstr "Mål"
-
-#: src/l10n_glossary/main.py:145
-msgid "Language"
-msgstr "Språk"
-
-#: src/l10n_glossary/main.py:153 src/l10n_glossary/main.py:323
-msgid "Context"
-msgstr "Sammanhang"
-
-#: src/l10n_glossary/main.py:161 src/l10n_glossary/main.py:324
-msgid "Comment"
-msgstr "Kommentar"
-
-#: src/l10n_glossary/main.py:169
-msgid "No glossary loaded"
-msgstr "Ingen ordbok inläst"
-
-#: src/l10n_glossary/main.py:252
-#, python-brace-format
-msgid "{} terms"
-msgstr "{} termer"
-
-#: src/l10n_glossary/main.py:255
-#, python-brace-format
-msgid "{} of {} terms shown"
-msgstr "{} av {} termer visas"
-
-#: src/l10n_glossary/main.py:290
-msgid "Edit Term"
-msgstr "Redigera term"
-
-#: src/l10n_glossary/main.py:298
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: src/l10n_glossary/main.py:309
-msgid "Delete"
-msgstr "Ta bort"
-
-#: src/l10n_glossary/main.py:320
-msgid "Source term"
-msgstr "Källterm"
-
-#: src/l10n_glossary/main.py:321
-msgid "Target term"
-msgstr "Målterm"
-
-#: src/l10n_glossary/main.py:322
-msgid "Language code"
-msgstr "Språkkod"
-
-#: src/l10n_glossary/main.py:374
-msgid "Open Glossary"
-msgstr "Öppna ordbok"
-
-#: src/l10n_glossary/main.py:376 src/l10n_glossary/main.py:451
-msgid "Glossary files"
-msgstr "Ordboksfiler"
-
-#: src/l10n_glossary/main.py:403
-msgid "Save Glossary"
-msgstr "Spara ordbok"
-
-#: src/l10n_glossary/main.py:424
-#, python-brace-format
-msgid "Import from {} file"
-msgstr "Importera från {}-fil"
-
-#: src/l10n_glossary/main.py:426
-#, python-brace-format
-msgid "{} files"
-msgstr "{} filer"
-
-#: src/l10n_glossary/main.py:443
-#, python-brace-format
-msgid "{} terms imported"
-msgstr "{} termer importerades"
-
-#: src/l10n_glossary/main.py:449
-msgid "Merge Glossary"
-msgstr "Slå samman ordböcker"
-
-#: src/l10n_glossary/main.py:466
-#, python-brace-format
-msgid "{} new terms merged"
-msgstr "{} nya termer sammanslagna"
-
-#: src/l10n_glossary/main.py:472
-#, python-brace-format
-msgid "Export as {}"
-msgstr "Exportera som {}"
-
-#: src/l10n_glossary/main.py:487
-msgid "Select PO/TS file to check"
-msgstr "Välj PO/TS-fil att kontrollera"
-
-#: src/l10n_glossary/main.py:489
-msgid "Translation files"
-msgstr "Översättningsfiler"
-
-#: src/l10n_glossary/main.py:503
-msgid "No inconsistencies found!"
-msgstr "Inga avvikelser hittades!"
-
-#: src/l10n_glossary/main.py:512
-msgid "Consistency Issues"
-msgstr "Konsistensproblem"
-
-#: src/l10n_glossary/main.py:518
-msgid "Close"
-msgstr "Stäng"
-
-#: src/l10n_glossary/main.py:534
-#, python-brace-format
-msgid "Expected: {expected} — Found: {found}"
-msgstr "Förväntade: {expected} — Hittade: {found}"
-
-#: src/l10n_glossary/main.py:543
-msgid "Error"
-msgstr "Fel"
-
-#: src/l10n_glossary/main.py:544 src/l10n_glossary/main.py:549
-msgid "OK"
-msgstr "OK"
-
-#: src/l10n_glossary/main.py:548
-msgid "Info"
-msgstr "Info"
-
-#: src/l10n_glossary/main.py:559
-msgid "Manage localization glossaries and flag inconsistencies"
-msgstr "Hantera ordböcker för lokalanpassning och flagga avvikelser"
 
 #: src/l10n_glossary/io_handler.py:29 src/l10n_glossary/consistency.py:26
 #, python-brace-format
@@ -250,6 +31,227 @@ msgstr "Filformatet stöds inte: {}"
 msgid "Unsupported format: {}"
 msgstr "Formatet stöds inte: {}"
 
-#: desktop file
-msgid "glossary;localization;l10n;translation;terms;"
-msgstr "ordbok;lokalanpassning;l10n;översättning;termer;"
+#: src/l10n_glossary/main.py:43 src/l10n_glossary/main.py:388
+#: src/l10n_glossary/main.py:408 src/l10n_glossary/main.py:430
+#: src/l10n_glossary/main.py:572
+msgid "Glossary Editor"
+msgstr "Ordboksredigerare"
+
+#: src/l10n_glossary/main.py:76
+msgid "New Glossary"
+msgstr "Ny ordbok"
+
+#: src/l10n_glossary/main.py:77
+msgid "Open…"
+msgstr "Öppna…"
+
+#: src/l10n_glossary/main.py:78 src/l10n_glossary/main.py:321
+msgid "Save"
+msgstr "Spara"
+
+#: src/l10n_glossary/main.py:79
+msgid "Save As…"
+msgstr "Spara som…"
+
+#: src/l10n_glossary/main.py:82
+msgid "Import from PO…"
+msgstr "Importera från PO…"
+
+#: src/l10n_glossary/main.py:83
+msgid "Import from TS…"
+msgstr "Importera från TS…"
+
+#: src/l10n_glossary/main.py:84
+msgid "Merge Glossary…"
+msgstr "Slå samman ordböcker…"
+
+#: src/l10n_glossary/main.py:85
+msgid "Import"
+msgstr "Importera"
+
+#: src/l10n_glossary/main.py:88
+msgid "Export as TBX…"
+msgstr "Exportera som TBX…"
+
+#: src/l10n_glossary/main.py:89
+msgid "Export as CSV…"
+msgstr "Exportera som CSV…"
+
+#: src/l10n_glossary/main.py:90
+msgid "Export as TSV…"
+msgstr "Exportera som TSV…"
+
+#: src/l10n_glossary/main.py:91
+msgid "Export"
+msgstr "Exportera"
+
+#: src/l10n_glossary/main.py:94
+msgid "Check Consistency…"
+msgstr "Kontrollera konsistens…"
+
+#: src/l10n_glossary/main.py:95
+msgid "Tools"
+msgstr "Verktyg"
+
+#: src/l10n_glossary/main.py:98
+msgid "About"
+msgstr "Om"
+
+#: src/l10n_glossary/main.py:106 src/l10n_glossary/main.py:308
+msgid "Add Term"
+msgstr "Lägg till term"
+
+#: src/l10n_glossary/main.py:112
+msgid "Search terms…"
+msgstr "Sök efter termer…"
+
+#: src/l10n_glossary/main.py:123 src/l10n_glossary/main.py:262
+#: src/l10n_glossary/main.py:280
+msgid "All Languages"
+msgstr "Alla språk"
+
+#: src/l10n_glossary/main.py:146
+msgid "Source"
+msgstr "Källa"
+
+#: src/l10n_glossary/main.py:154
+msgid "Target"
+msgstr "Mål"
+
+#: src/l10n_glossary/main.py:162
+msgid "Language"
+msgstr "Språk"
+
+#: src/l10n_glossary/main.py:170 src/l10n_glossary/main.py:341
+msgid "Context"
+msgstr "Sammanhang"
+
+#: src/l10n_glossary/main.py:178 src/l10n_glossary/main.py:342
+msgid "Comment"
+msgstr "Kommentar"
+
+#: src/l10n_glossary/main.py:187
+msgid "No glossary loaded"
+msgstr "Ingen ordbok inläst"
+
+#: src/l10n_glossary/main.py:270
+#, python-brace-format
+msgid "{} terms"
+msgstr "{} termer"
+
+#: src/l10n_glossary/main.py:273
+#, python-brace-format
+msgid "{} of {} terms shown"
+msgstr "{} av {} termer visas"
+
+#: src/l10n_glossary/main.py:308
+msgid "Edit Term"
+msgstr "Redigera term"
+
+#: src/l10n_glossary/main.py:316
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/l10n_glossary/main.py:327
+msgid "Delete"
+msgstr "Ta bort"
+
+#: src/l10n_glossary/main.py:338
+msgid "Source term"
+msgstr "Källterm"
+
+#: src/l10n_glossary/main.py:339
+msgid "Target term"
+msgstr "Målterm"
+
+#: src/l10n_glossary/main.py:340
+msgid "Language code"
+msgstr "Språkkod"
+
+#: src/l10n_glossary/main.py:392
+msgid "Open Glossary"
+msgstr "Öppna ordbok"
+
+#: src/l10n_glossary/main.py:394 src/l10n_glossary/main.py:469
+msgid "Glossary files"
+msgstr "Ordboksfiler"
+
+#: src/l10n_glossary/main.py:421
+msgid "Save Glossary"
+msgstr "Spara ordbok"
+
+#: src/l10n_glossary/main.py:442
+#, python-brace-format
+msgid "Import from {} file"
+msgstr "Importera från {}-fil"
+
+#: src/l10n_glossary/main.py:444
+#, python-brace-format
+msgid "{} files"
+msgstr "{} filer"
+
+#: src/l10n_glossary/main.py:461
+#, python-brace-format
+msgid "{} terms imported"
+msgstr "{} termer importerades"
+
+#: src/l10n_glossary/main.py:467
+msgid "Merge Glossary"
+msgstr "Slå samman ordböcker"
+
+#: src/l10n_glossary/main.py:484
+#, python-brace-format
+msgid "{} new terms merged"
+msgstr "{} nya termer sammanslagna"
+
+#: src/l10n_glossary/main.py:490
+#, python-brace-format
+msgid "Export as {}"
+msgstr "Exportera som {}"
+
+#: src/l10n_glossary/main.py:505
+msgid "Select PO/TS file to check"
+msgstr "Välj PO/TS-fil att kontrollera"
+
+#: src/l10n_glossary/main.py:507
+msgid "Translation files"
+msgstr "Översättningsfiler"
+
+#: src/l10n_glossary/main.py:521
+msgid "No inconsistencies found!"
+msgstr "Inga avvikelser hittades!"
+
+#: src/l10n_glossary/main.py:530
+msgid "Consistency Issues"
+msgstr "Konsistensproblem"
+
+#: src/l10n_glossary/main.py:536
+msgid "Close"
+msgstr "Stäng"
+
+#: src/l10n_glossary/main.py:552
+#, python-brace-format
+msgid "Expected: {expected} — Found: {found}"
+msgstr "Förväntade: {expected} — Hittade: {found}"
+
+#: src/l10n_glossary/main.py:561
+msgid "Error"
+msgstr "Fel"
+
+#: src/l10n_glossary/main.py:562 src/l10n_glossary/main.py:567
+msgid "OK"
+msgstr "OK"
+
+#: src/l10n_glossary/main.py:566
+msgid "Info"
+msgstr "Info"
+
+#: src/l10n_glossary/main.py:577
+msgid "A localization tool by Daniel Nylander"
+msgstr "Ett lokalanpassningsverktyg av Daniel Nylander"
+
+#: src/l10n_glossary/main.py:581
+msgid ""
+"Translate this app: https://app.transifex.com/danielnylander/l10n-glossary/"
+msgstr ""
+"Översätt denna app: https://app.transifex.com/danielnylander/l10n-glossary/"
