@@ -1,6 +1,6 @@
-# Glossary Editor (l10n-glossary)
+# Glossary Editor
 
-A GTK4/Adwaita application for managing localization glossaries — term lists per language/project with inconsistency detection.
+A GTK4/Adwaita application for creating and managing translation glossaries (TBX/CSV/TSV).
 
 ## Features
 
@@ -9,16 +9,27 @@ A GTK4/Adwaita application for managing localization glossaries — term lists p
 - Search and filter terms
 - Import terms from .po/.ts files (extract frequent terms)
 - Export to TBX, CSV, TSV
-- Consistency check: scan .po/.ts files against glossary, flag inconsistent translations
+- Consistency check: scan .po/.ts files against glossary
 - Support for multiple languages in the same glossary
 - Merge glossaries
 
 ## Installation
 
-### From .deb package
+### Debian/Ubuntu
 
 ```bash
-sudo apt install ./l10n-glossary_0.1.0_all.deb
+# Add repository
+curl -fsSL https://yeager.github.io/debian-repo/KEY.gpg | sudo gpg --dearmor -o /usr/share/keyrings/yeager-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/yeager-archive-keyring.gpg] https://yeager.github.io/debian-repo stable main" | sudo tee /etc/apt/sources.list.d/yeager.list
+sudo apt update
+sudo apt install l10n-glossary
+```
+
+### Fedora/RHEL
+
+```bash
+sudo dnf config-manager --add-repo https://yeager.github.io/rpm-repo/yeager.repo
+sudo dnf install l10n-glossary
 ```
 
 ### From source
@@ -27,22 +38,6 @@ sudo apt install ./l10n-glossary_0.1.0_all.deb
 pip install .
 l10n-glossary
 ```
-
-## Dependencies
-
-- Python 3.10+
-- GTK 4
-- libadwaita 1.x
-- PyGObject
-- lxml
-
-## License
-
-GPL-3.0-or-later — see [LICENSE](LICENSE).
-
-## Author
-
-Daniel Nylander <daniel@danielnylander.se>
 
 ## 🌍 Contributing Translations
 
@@ -64,3 +59,7 @@ Arabic, Czech, Danish, German, Spanish, Finnish, French, Italian, Japanese, Kore
 - Translations are pulled back and included in releases
 
 New language? Open an [issue](https://github.com/yeager/l10n-glossary/issues) and we'll add it!
+
+## License
+
+GPL-3.0-or-later — Daniel Nylander <daniel@danielnylander.se>
