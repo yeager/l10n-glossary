@@ -11,6 +11,8 @@ import os
 
 # i18n setup
 LOCALE_DIR = os.path.join(os.path.dirname(__file__), '..', '..', 'po')
+if not os.path.isdir(LOCALE_DIR):
+    LOCALE_DIR = '/usr/share/locale'
 gettext.bindtextdomain('l10n-glossary', LOCALE_DIR)
 gettext.textdomain('l10n-glossary')
 _ = gettext.gettext
