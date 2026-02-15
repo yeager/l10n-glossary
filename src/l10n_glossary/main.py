@@ -18,7 +18,7 @@ _ = gettext.gettext
 import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
-from gi.repository import Gtk, Adw, Gio
+from gi.repository import Gtk, Adw, Gio, GObject
 
 from l10n_glossary.glossary import Glossary, Term
 from l10n_glossary.io_handler import (
@@ -580,11 +580,11 @@ class GlossaryWindow(Adw.ApplicationWindow):
         about.present(self)
 
 
-class TermObject(Gio.SimpleAction):
+class TermObject(GObject.Object):
     """Wrapper to put Term in a Gio.ListStore."""
 
     def __init__(self, term):
-        super().__init__(name="term")
+        super().__init__()
         self.term = term
 
 
