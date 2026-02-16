@@ -35,11 +35,11 @@ msgstr "Formatet stöds inte: {}"
 #: src/l10n_glossary/main.py:408 src/l10n_glossary/main.py:430
 #: src/l10n_glossary/main.py:572
 msgid "Glossary Editor"
-msgstr "Ordboksredigerare"
+msgstr "Ordlisteredigerare"
 
 #: src/l10n_glossary/main.py:76
 msgid "New Glossary"
-msgstr "Ny ordbok"
+msgstr "Ny ordlista"
 
 #: src/l10n_glossary/main.py:77
 msgid "Open…"
@@ -63,7 +63,7 @@ msgstr "Importera från TS…"
 
 #: src/l10n_glossary/main.py:84
 msgid "Merge Glossary…"
-msgstr "Slå samman ordböcker…"
+msgstr "Slå samman ordlistor…"
 
 #: src/l10n_glossary/main.py:85
 msgid "Import"
@@ -132,7 +132,7 @@ msgstr "Kommentar"
 
 #: src/l10n_glossary/main.py:187
 msgid "No glossary loaded"
-msgstr "Ingen ordbok inläst"
+msgstr "Ingen ordlista inläst"
 
 #: src/l10n_glossary/main.py:270
 #, python-brace-format
@@ -170,15 +170,15 @@ msgstr "Språkkod"
 
 #: src/l10n_glossary/main.py:392
 msgid "Open Glossary"
-msgstr "Öppna ordbok"
+msgstr "Öppna ordlista"
 
 #: src/l10n_glossary/main.py:394 src/l10n_glossary/main.py:469
 msgid "Glossary files"
-msgstr "Ordboksfiler"
+msgstr "Ordlistefiler"
 
 #: src/l10n_glossary/main.py:421
 msgid "Save Glossary"
-msgstr "Spara ordbok"
+msgstr "Spara ordlista"
 
 #: src/l10n_glossary/main.py:442
 #, python-brace-format
@@ -197,7 +197,7 @@ msgstr "{} termer importerades"
 
 #: src/l10n_glossary/main.py:467
 msgid "Merge Glossary"
-msgstr "Slå samman ordböcker"
+msgstr "Slå samman ordlistor"
 
 #: src/l10n_glossary/main.py:484
 #, python-brace-format

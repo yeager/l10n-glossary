@@ -25,7 +25,7 @@ msgstr ""
 #: data/man/l10n-glossary.1:1
 #, no-wrap
 msgid "L10N-GLOSSARY"
-msgstr ""
+msgstr "L10N-GLOSSARY"
 
 #. type: TH
 #: data/man/l10n-glossary.1:1
@@ -43,7 +43,7 @@ msgstr "Daniel Nylander"
 #: data/man/l10n-glossary.1:1
 #, no-wrap
 msgid "L10n Glossary Manual"
-msgstr ""
+msgstr "Manual för L10n Glossary"
 
 #. type: SH
 #: data/man/l10n-glossary.1:2
@@ -54,7 +54,7 @@ msgstr "NAMN"
 #. type: Plain text
 #: data/man/l10n-glossary.1:4
 msgid "l10n-glossary - Translation glossary editor"
-msgstr ""
+msgstr "l10n-glossary - Redigerare för översättningsordlistor"
 
 #. type: SH
 #: data/man/l10n-glossary.1:4
@@ -65,7 +65,7 @@ msgstr "SYNOPSIS"
 #. type: Plain text
 #: data/man/l10n-glossary.1:6
 msgid "B<l10n-glossary>"
-msgstr ""
+msgstr "B<l10n-glossary>"
 
 #. type: SH
 #: data/man/l10n-glossary.1:6
@@ -83,6 +83,12 @@ msgid ""
 "checking against translation files, multi-language support, and glossary "
 "merging."
 msgstr ""
+"B<l10n-glossary> är ett GTK4/Adwaita-program för att skapa och hantera "
+"översättningsordlistor i TBX-, CSV- och TSV-format. Funktionerna inkluderar "
+"att lägga till, redigera och ta bort termer med sammanhang och kommentarer, "
+"importera termer från .po/.ts-filer, exportera till flera format, "
+"konsistenskontroll mot översättningsfiler, stöd för flera språk och "
+"sammanslagning av ordlistor."
 
 #. type: SH
 #: data/man/l10n-glossary.1:8
@@ -94,12 +100,12 @@ msgstr "FLAGGOR"
 #: data/man/l10n-glossary.1:9
 #, no-wrap
 msgid "B<--help>"
-msgstr ""
+msgstr "B<--help>"
 
 #. type: Plain text
 #: data/man/l10n-glossary.1:12
 msgid "Show help message and exit."
-msgstr ""
+msgstr "Visa hjälpmeddelande och avsluta."
 
 #. type: SH
 #: data/man/l10n-glossary.1:12
@@ -111,7 +117,7 @@ msgstr "FILER"
 #: data/man/l10n-glossary.1:13
 #, no-wrap
 msgid "I<~/.config/l10n-glossary/>"
-msgstr ""
+msgstr "I<~/.config/l10n-glossary/>"
 
 #. type: Plain text
 #: data/man/l10n-glossary.1:16
@@ -122,7 +128,7 @@ msgstr "Konfigurationsfiler."
 #: data/man/l10n-glossary.1:16
 #, no-wrap
 msgid "I<~/.cache/l10n-glossary/>"
-msgstr ""
+msgstr "I<~/.cache/l10n-glossary/>"
 
 #. type: Plain text
 #: data/man/l10n-glossary.1:19
@@ -138,7 +144,7 @@ msgstr "BUGGAR"
 #. type: Plain text
 #: data/man/l10n-glossary.1:21
 msgid "Report bugs at https://github.com/yeager/l10n-glossary/issues"
-msgstr ""
+msgstr "Rapportera buggar på https://github.com/yeager/l10n-glossary/issues"
 
 #. type: SH
 #: data/man/l10n-glossary.1:21
@@ -160,4 +166,4 @@ msgstr "SE ÄVEN"
 #. type: Plain text
 #: data/man/l10n-glossary.1:24
 msgid "Project homepage: https://github.com/yeager/l10n-glossary"
-msgstr ""
+msgstr "Projektets webbsida: https://github.com/yeager/l10n-glossary"
