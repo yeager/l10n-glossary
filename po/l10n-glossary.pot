@@ -250,3 +250,11 @@ msgstr ""
 msgid ""
 "Translate this app: https://app.transifex.com/danielnylander/l10n-glossary/"
 msgstr ""
+
+#: l10n-glossary/data/se.danielnylander.l10n-glossary.desktop.in
+msgid "Manage localization glossaries and flag inconsistencies"
+msgstr ""
+
+#: l10n-glossary/data/se.danielnylander.l10n-glossary.desktop.in
+msgid "glossary;localization;l10n;translation;terms;"
+msgstr ""
