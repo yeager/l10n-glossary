@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![Ubuntu L10n](screenshots/main.png)
+![L10n Glossary](screenshots/main.png)
 
 A GTK4/Adwaita application for creating and managing translation glossaries (TBX/CSV/TSV).
 
