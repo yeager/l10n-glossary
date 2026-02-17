@@ -99,7 +99,7 @@ msgstr "Om"
 
 #: src/l10n_glossary/main.py:122
 msgid "Export data"
-msgstr ""
+msgstr "Exportera data"
 
 #: src/l10n_glossary/main.py:128 src/l10n_glossary/main.py:368
 msgid "Add Term"
@@ -150,11 +150,11 @@ msgstr "{} av {} termer visas"
 
 #: src/l10n_glossary/main.py:317
 msgid "Export Data"
-msgstr ""
+msgstr "Exportera data"
 
 #: src/l10n_glossary/main.py:318
 msgid "Choose export format:"
-msgstr ""
+msgstr "Välj exportformat:"
 
 #: src/l10n_glossary/main.py:319 src/l10n_glossary/main.py:376
 msgid "Cancel"
