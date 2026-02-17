@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Daniel Nylander
-# This file is distributed under the same license as the l10n-glossary package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: l10n-glossary\n"
-"Report-Msgid-Bugs-To: daniel@danielnylander.se\n"
-"POT-Creation-Date: 2026-02-15 09:49+0100\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-16 17:15+0100\n"
 "PO-Revision-Date: 2026-02-14 09:50+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304764/sv/)\n"
@@ -31,226 +31,238 @@ msgstr "Filformatet stöds inte: {}"
 msgid "Unsupported format: {}"
 msgstr "Formatet stöds inte: {}"
 
-#: src/l10n_glossary/main.py:43 src/l10n_glossary/main.py:388
-#: src/l10n_glossary/main.py:408 src/l10n_glossary/main.py:430
-#: src/l10n_glossary/main.py:572
+#: src/l10n_glossary/main.py:46 src/l10n_glossary/main.py:448
+#: src/l10n_glossary/main.py:468 src/l10n_glossary/main.py:490
+#: src/l10n_glossary/main.py:632
 msgid "Glossary Editor"
 msgstr "Ordlisteredigerare"
 
-#: src/l10n_glossary/main.py:76
+#: src/l10n_glossary/main.py:86
 msgid "New Glossary"
 msgstr "Ny ordlista"
 
-#: src/l10n_glossary/main.py:77
+#: src/l10n_glossary/main.py:87
 msgid "Open…"
 msgstr "Öppna…"
 
-#: src/l10n_glossary/main.py:78 src/l10n_glossary/main.py:321
+#: src/l10n_glossary/main.py:88 src/l10n_glossary/main.py:381
 msgid "Save"
 msgstr "Spara"
 
-#: src/l10n_glossary/main.py:79
+#: src/l10n_glossary/main.py:89
 msgid "Save As…"
 msgstr "Spara som…"
 
-#: src/l10n_glossary/main.py:82
+#: src/l10n_glossary/main.py:92
 msgid "Import from PO…"
 msgstr "Importera från PO…"
 
-#: src/l10n_glossary/main.py:83
+#: src/l10n_glossary/main.py:93
 msgid "Import from TS…"
 msgstr "Importera från TS…"
 
-#: src/l10n_glossary/main.py:84
+#: src/l10n_glossary/main.py:94
 msgid "Merge Glossary…"
 msgstr "Slå samman ordlistor…"
 
-#: src/l10n_glossary/main.py:85
+#: src/l10n_glossary/main.py:95
 msgid "Import"
 msgstr "Importera"
 
-#: src/l10n_glossary/main.py:88
+#: src/l10n_glossary/main.py:98
 msgid "Export as TBX…"
 msgstr "Exportera som TBX…"
 
-#: src/l10n_glossary/main.py:89
+#: src/l10n_glossary/main.py:99
 msgid "Export as CSV…"
 msgstr "Exportera som CSV…"
 
-#: src/l10n_glossary/main.py:90
+#: src/l10n_glossary/main.py:100
 msgid "Export as TSV…"
 msgstr "Exportera som TSV…"
 
-#: src/l10n_glossary/main.py:91
+#: src/l10n_glossary/main.py:101
 msgid "Export"
 msgstr "Exportera"
 
-#: src/l10n_glossary/main.py:94
+#: src/l10n_glossary/main.py:104
 msgid "Check Consistency…"
 msgstr "Kontrollera konsistens…"
 
-#: src/l10n_glossary/main.py:95
+#: src/l10n_glossary/main.py:105
 msgid "Tools"
 msgstr "Verktyg"
 
-#: src/l10n_glossary/main.py:98
+#: src/l10n_glossary/main.py:108
 msgid "About"
 msgstr "Om"
 
-#: src/l10n_glossary/main.py:106 src/l10n_glossary/main.py:308
+#: src/l10n_glossary/main.py:122
+msgid "Export data"
+msgstr ""
+
+#: src/l10n_glossary/main.py:128 src/l10n_glossary/main.py:368
 msgid "Add Term"
 msgstr "Lägg till term"
 
-#: src/l10n_glossary/main.py:112
+#: src/l10n_glossary/main.py:134
 msgid "Search terms…"
 msgstr "Sök efter termer…"
 
-#: src/l10n_glossary/main.py:123 src/l10n_glossary/main.py:262
-#: src/l10n_glossary/main.py:280
+#: src/l10n_glossary/main.py:145 src/l10n_glossary/main.py:284
+#: src/l10n_glossary/main.py:302
 msgid "All Languages"
 msgstr "Alla språk"
 
-#: src/l10n_glossary/main.py:146
+#: src/l10n_glossary/main.py:168
 msgid "Source"
 msgstr "Källa"
 
-#: src/l10n_glossary/main.py:154
+#: src/l10n_glossary/main.py:176
 msgid "Target"
 msgstr "Mål"
 
-#: src/l10n_glossary/main.py:162
+#: src/l10n_glossary/main.py:184
 msgid "Language"
 msgstr "Språk"
 
-#: src/l10n_glossary/main.py:170 src/l10n_glossary/main.py:341
+#: src/l10n_glossary/main.py:192 src/l10n_glossary/main.py:401
 msgid "Context"
 msgstr "Sammanhang"
 
-#: src/l10n_glossary/main.py:178 src/l10n_glossary/main.py:342
+#: src/l10n_glossary/main.py:200 src/l10n_glossary/main.py:402
 msgid "Comment"
 msgstr "Kommentar"
 
-#: src/l10n_glossary/main.py:187
+#: src/l10n_glossary/main.py:209
 msgid "No glossary loaded"
 msgstr "Ingen ordlista inläst"
 
-#: src/l10n_glossary/main.py:270
+#: src/l10n_glossary/main.py:292
 #, python-brace-format
 msgid "{} terms"
 msgstr "{} termer"
 
-#: src/l10n_glossary/main.py:273
+#: src/l10n_glossary/main.py:295
 #, python-brace-format
 msgid "{} of {} terms shown"
 msgstr "{} av {} termer visas"
 
-#: src/l10n_glossary/main.py:308
-msgid "Edit Term"
-msgstr "Redigera term"
+#: src/l10n_glossary/main.py:317
+msgid "Export Data"
+msgstr ""
 
-#: src/l10n_glossary/main.py:316
+#: src/l10n_glossary/main.py:318
+msgid "Choose export format:"
+msgstr ""
+
+#: src/l10n_glossary/main.py:319 src/l10n_glossary/main.py:376
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/l10n_glossary/main.py:327
+#: src/l10n_glossary/main.py:368
+msgid "Edit Term"
+msgstr "Redigera term"
+
+#: src/l10n_glossary/main.py:387
 msgid "Delete"
 msgstr "Ta bort"
 
-#: src/l10n_glossary/main.py:338
+#: src/l10n_glossary/main.py:398
 msgid "Source term"
 msgstr "Källterm"
 
-#: src/l10n_glossary/main.py:339
+#: src/l10n_glossary/main.py:399
 msgid "Target term"
 msgstr "Målterm"
 
-#: src/l10n_glossary/main.py:340
+#: src/l10n_glossary/main.py:400
 msgid "Language code"
 msgstr "Språkkod"
 
-#: src/l10n_glossary/main.py:392
+#: src/l10n_glossary/main.py:452
 msgid "Open Glossary"
 msgstr "Öppna ordlista"
 
-#: src/l10n_glossary/main.py:394 src/l10n_glossary/main.py:469
+#: src/l10n_glossary/main.py:454 src/l10n_glossary/main.py:529
 msgid "Glossary files"
 msgstr "Ordlistefiler"
 
-#: src/l10n_glossary/main.py:421
+#: src/l10n_glossary/main.py:481
 msgid "Save Glossary"
 msgstr "Spara ordlista"
 
-#: src/l10n_glossary/main.py:442
+#: src/l10n_glossary/main.py:502
 #, python-brace-format
 msgid "Import from {} file"
 msgstr "Importera från {}-fil"
 
-#: src/l10n_glossary/main.py:444
+#: src/l10n_glossary/main.py:504
 #, python-brace-format
 msgid "{} files"
 msgstr "{} filer"
 
-#: src/l10n_glossary/main.py:461
+#: src/l10n_glossary/main.py:521
 #, python-brace-format
 msgid "{} terms imported"
 msgstr "{} termer importerades"
 
-#: src/l10n_glossary/main.py:467
+#: src/l10n_glossary/main.py:527
 msgid "Merge Glossary"
 msgstr "Slå samman ordlistor"
 
-#: src/l10n_glossary/main.py:484
+#: src/l10n_glossary/main.py:544
 #, python-brace-format
 msgid "{} new terms merged"
 msgstr "{} nya termer sammanslagna"
 
-#: src/l10n_glossary/main.py:490
+#: src/l10n_glossary/main.py:550
 #, python-brace-format
 msgid "Export as {}"
 msgstr "Exportera som {}"
 
-#: src/l10n_glossary/main.py:505
+#: src/l10n_glossary/main.py:565
 msgid "Select PO/TS file to check"
 msgstr "Välj PO/TS-fil att kontrollera"
 
-#: src/l10n_glossary/main.py:507
+#: src/l10n_glossary/main.py:567
 msgid "Translation files"
 msgstr "Översättningsfiler"
 
-#: src/l10n_glossary/main.py:521
+#: src/l10n_glossary/main.py:581
 msgid "No inconsistencies found!"
 msgstr "Inga avvikelser hittades!"
 
-#: src/l10n_glossary/main.py:530
+#: src/l10n_glossary/main.py:590
 msgid "Consistency Issues"
 msgstr "Konsistensproblem"
 
-#: src/l10n_glossary/main.py:536
+#: src/l10n_glossary/main.py:596
 msgid "Close"
 msgstr "Stäng"
 
-#: src/l10n_glossary/main.py:552
+#: src/l10n_glossary/main.py:612
 #, python-brace-format
 msgid "Expected: {expected} — Found: {found}"
 msgstr "Förväntade: {expected} — Hittade: {found}"
 
-#: src/l10n_glossary/main.py:561
+#: src/l10n_glossary/main.py:621
 msgid "Error"
 msgstr "Fel"
 
-#: src/l10n_glossary/main.py:562 src/l10n_glossary/main.py:567
+#: src/l10n_glossary/main.py:622 src/l10n_glossary/main.py:627
 msgid "OK"
 msgstr "OK"
 
-#: src/l10n_glossary/main.py:566
+#: src/l10n_glossary/main.py:626
 msgid "Info"
 msgstr "Info"
 
-#: src/l10n_glossary/main.py:577
+#: src/l10n_glossary/main.py:637
 msgid "A localization tool by Daniel Nylander"
 msgstr "Ett lokalanpassningsverktyg av Daniel Nylander"
 
-#: src/l10n_glossary/main.py:581
+#: src/l10n_glossary/main.py:642
 msgid ""
 "Translate this app: https://app.transifex.com/danielnylander/l10n-glossary/"
 msgstr ""
