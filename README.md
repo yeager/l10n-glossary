@@ -1,5 +1,9 @@
 # Glossary Editor
 
+## Screenshot
+
+![Ubuntu L10n](screenshots/main.png)
+
 A GTK4/Adwaita application for creating and managing translation glossaries (TBX/CSV/TSV).
 
 ## Features
