@@ -42,6 +42,7 @@ class GlossaryWindow(Adw.ApplicationWindow):
         self.glossary = Glossary()
         self.current_file = None
         self.filtered_terms = []
+        self._refreshing = False
 
         self.set_title(_("Glossary Editor"))
         self.set_default_size(900, 600)
@@ -64,20 +65,23 @@ class GlossaryWindow(Adw.ApplicationWindow):
 
     def _build_ui(self):
         """Build the UI."""
+        # Use ToolbarView for proper header bar handling
+        toolbar_view = Adw.ToolbarView()
+        self.set_content(toolbar_view)
+
+        # Header bar (must be first)
+        header = Adw.HeaderBar()
+        toolbar_view.add_top_bar(header)
+
         # Main layout
         main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        toolbar_view.set_content(main_box)
+
         # Status bar
         self._status_bar = Gtk.Label(label="", halign=Gtk.Align.START,
                                      margin_start=12, margin_end=12, margin_bottom=4)
         self._status_bar.add_css_class("dim-label")
         self._status_bar.add_css_class("caption")
-        main_box.append(self._status_bar)
-
-        self.set_content(main_box)
-
-        # Header bar
-        header = Adw.HeaderBar()
-        main_box.append(header)
 
         # Menu button
         menu_button = Gtk.MenuButton()
@@ -274,6 +278,9 @@ class GlossaryWindow(Adw.ApplicationWindow):
 
     def _refresh_list(self, search_text="", lang_filter=""):
         """Refresh the term list."""
+        if self._refreshing:
+            return
+        self._refreshing = True
         self.list_store.remove_all()
         for term in self.glossary.terms:
             if search_text:
@@ -295,6 +302,7 @@ class GlossaryWindow(Adw.ApplicationWindow):
                 _("{} of {} terms shown").format(count, total))
 
         self._update_lang_filter()
+        self._refreshing = False
 
     def _update_lang_filter(self):
         """Update language filter dropdown."""
@@ -670,8 +678,8 @@ class GlossaryApp(Adw.Application):
 
     def __init__(self):
         super().__init__(
-            application_id="se.danielnylander.l10n-glossary",
-            flags=Gio.ApplicationFlags.FLAGS_NONE,
+            application_id="se.danielnylander.l10n_glossary",
+            flags=Gio.ApplicationFlags.NON_UNIQUE,
         )
 
     def do_startup(self):
