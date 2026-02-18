@@ -643,14 +643,6 @@ class GlossaryWindow(Adw.ApplicationWindow):
         about.present(self)
 
 
-class TermObject(GObject.Object):
-    """Wrapper to put Term in a Gio.ListStore."""
-
-    def __init__(self, term):
-        super().__init__()
-        self.term = term
-
-
 
     def _on_theme_toggle(self, _btn):
         sm = Adw.StyleManager.get_default()
@@ -663,6 +655,14 @@ class TermObject(GObject.Object):
 
     def _update_status_bar(self):
         self._status_bar.set_text("Last updated: " + _dt_now.now().strftime("%Y-%m-%d %H:%M"))
+
+class TermObject(GObject.Object):
+    """Wrapper to put Term in a Gio.ListStore."""
+
+    def __init__(self, term):
+        super().__init__()
+        self.term = term
+
 
 
 class GlossaryApp(Adw.Application):
