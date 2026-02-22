@@ -667,9 +667,10 @@ class GlossaryWindow(Adw.ApplicationWindow):
         about.set_comments(_("A localization tool by Daniel Nylander"))
         about.set_website("https://github.com/yeager/l10n-glossary")
         about.set_issue_url("https://github.com/yeager/l10n-glossary/issues")
-        about.set_translate_url("https://app.transifex.com/danielnylander/l10n-glossary/")
         about.set_developers(["Daniel Nylander <daniel@danielnylander.se>"])
         about.set_translator_credits(_("Translate this app: https://www.transifex.com/danielnylander/l10n-glossary/"))
+        about.add_link(_("Help translate"), "https://app.transifex.com/danielnylander/l10n-glossary/")
+
         about.present(self)
 
 
