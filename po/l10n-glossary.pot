@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the l10n-glossary package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: l10n-glossary\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-22 06:25+0100\n"
+"POT-Creation-Date: 2026-02-22 17:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/l10n_glossary/io_handler.py:29 src/l10n_glossary/consistency.py:26
+#: src/l10n_glossary/consistency.py:26 src/l10n_glossary/io_handler.py:29
 #, python-brace-format
 msgid "Unsupported file format: {}"
 msgstr ""
@@ -27,251 +27,251 @@ msgstr ""
 msgid "Unsupported format: {}"
 msgstr ""
 
-#: src/l10n_glossary/main.py:68 src/l10n_glossary/main.py:477
-#: src/l10n_glossary/main.py:497 src/l10n_glossary/main.py:519
-#: src/l10n_glossary/main.py:661
+#: src/l10n_glossary/main.py:69 src/l10n_glossary/main.py:478
+#: src/l10n_glossary/main.py:498 src/l10n_glossary/main.py:520
+#: src/l10n_glossary/main.py:662
 msgid "Glossary Editor"
 msgstr ""
 
-#: src/l10n_glossary/main.py:111
+#: src/l10n_glossary/main.py:112
 msgid "New Glossary"
 msgstr ""
 
-#: src/l10n_glossary/main.py:112
+#: src/l10n_glossary/main.py:113
 msgid "Open…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:113 src/l10n_glossary/main.py:410
+#: src/l10n_glossary/main.py:114 src/l10n_glossary/main.py:411
 msgid "Save"
 msgstr ""
 
-#: src/l10n_glossary/main.py:114
+#: src/l10n_glossary/main.py:115
 msgid "Save As…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:117
+#: src/l10n_glossary/main.py:118
 msgid "Import from PO…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:118
+#: src/l10n_glossary/main.py:119
 msgid "Import from TS…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:119
+#: src/l10n_glossary/main.py:120
 msgid "Merge Glossary…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:120
+#: src/l10n_glossary/main.py:121
 msgid "Import"
 msgstr ""
 
-#: src/l10n_glossary/main.py:123
+#: src/l10n_glossary/main.py:124
 msgid "Export as TBX…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:124
+#: src/l10n_glossary/main.py:125
 msgid "Export as CSV…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:125
+#: src/l10n_glossary/main.py:126
 msgid "Export as TSV…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:126
+#: src/l10n_glossary/main.py:127
 msgid "Export"
 msgstr ""
 
-#: src/l10n_glossary/main.py:129
+#: src/l10n_glossary/main.py:130
 msgid "Check Consistency…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:130
+#: src/l10n_glossary/main.py:131
 msgid "Tools"
 msgstr ""
 
-#: src/l10n_glossary/main.py:133
+#: src/l10n_glossary/main.py:134
 msgid "About"
 msgstr ""
 
-#: src/l10n_glossary/main.py:147
+#: src/l10n_glossary/main.py:148
 msgid "Export data"
 msgstr ""
 
-#: src/l10n_glossary/main.py:153 src/l10n_glossary/main.py:397
+#: src/l10n_glossary/main.py:154 src/l10n_glossary/main.py:398
 msgid "Add Term"
 msgstr ""
 
-#: src/l10n_glossary/main.py:159
+#: src/l10n_glossary/main.py:160
 msgid "Search terms…"
 msgstr ""
 
-#: src/l10n_glossary/main.py:170 src/l10n_glossary/main.py:312
-#: src/l10n_glossary/main.py:331
+#: src/l10n_glossary/main.py:171 src/l10n_glossary/main.py:313
+#: src/l10n_glossary/main.py:332
 msgid "All Languages"
 msgstr ""
 
-#: src/l10n_glossary/main.py:193
+#: src/l10n_glossary/main.py:194
 msgid "Source"
 msgstr ""
 
-#: src/l10n_glossary/main.py:201
+#: src/l10n_glossary/main.py:202
 msgid "Target"
 msgstr ""
 
-#: src/l10n_glossary/main.py:209
+#: src/l10n_glossary/main.py:210
 msgid "Language"
 msgstr ""
 
-#: src/l10n_glossary/main.py:217 src/l10n_glossary/main.py:430
+#: src/l10n_glossary/main.py:218 src/l10n_glossary/main.py:431
 msgid "Context"
 msgstr ""
 
-#: src/l10n_glossary/main.py:225 src/l10n_glossary/main.py:431
+#: src/l10n_glossary/main.py:226 src/l10n_glossary/main.py:432
 msgid "Comment"
 msgstr ""
 
-#: src/l10n_glossary/main.py:234
+#: src/l10n_glossary/main.py:235
 msgid "No glossary loaded"
 msgstr ""
 
-#: src/l10n_glossary/main.py:320
+#: src/l10n_glossary/main.py:321
 #, python-brace-format
 msgid "{} terms"
 msgstr ""
 
-#: src/l10n_glossary/main.py:323
+#: src/l10n_glossary/main.py:324
 #, python-brace-format
 msgid "{} of {} terms shown"
 msgstr ""
 
-#: src/l10n_glossary/main.py:346
+#: src/l10n_glossary/main.py:347
 msgid "Export Data"
 msgstr ""
 
-#: src/l10n_glossary/main.py:347
+#: src/l10n_glossary/main.py:348
 msgid "Choose export format:"
 msgstr ""
 
-#: src/l10n_glossary/main.py:348 src/l10n_glossary/main.py:405
+#: src/l10n_glossary/main.py:349 src/l10n_glossary/main.py:406
 msgid "Cancel"
 msgstr ""
 
-#: src/l10n_glossary/main.py:397
+#: src/l10n_glossary/main.py:398
 msgid "Edit Term"
 msgstr ""
 
-#: src/l10n_glossary/main.py:416
+#: src/l10n_glossary/main.py:417
 msgid "Delete"
 msgstr ""
 
-#: src/l10n_glossary/main.py:427
+#: src/l10n_glossary/main.py:428
 msgid "Source term"
 msgstr ""
 
-#: src/l10n_glossary/main.py:428
+#: src/l10n_glossary/main.py:429
 msgid "Target term"
 msgstr ""
 
-#: src/l10n_glossary/main.py:429
+#: src/l10n_glossary/main.py:430
 msgid "Language code"
 msgstr ""
 
-#: src/l10n_glossary/main.py:481
+#: src/l10n_glossary/main.py:482
 msgid "Open Glossary"
 msgstr ""
 
-#: src/l10n_glossary/main.py:483 src/l10n_glossary/main.py:558
+#: src/l10n_glossary/main.py:484 src/l10n_glossary/main.py:559
 msgid "Glossary files"
 msgstr ""
 
-#: src/l10n_glossary/main.py:510
+#: src/l10n_glossary/main.py:511
 msgid "Save Glossary"
 msgstr ""
 
-#: src/l10n_glossary/main.py:531
+#: src/l10n_glossary/main.py:532
 #, python-brace-format
 msgid "Import from {} file"
 msgstr ""
 
-#: src/l10n_glossary/main.py:533
+#: src/l10n_glossary/main.py:534
 #, python-brace-format
 msgid "{} files"
 msgstr ""
 
-#: src/l10n_glossary/main.py:550
+#: src/l10n_glossary/main.py:551
 #, python-brace-format
 msgid "{} terms imported"
 msgstr ""
 
-#: src/l10n_glossary/main.py:556
+#: src/l10n_glossary/main.py:557
 msgid "Merge Glossary"
 msgstr ""
 
-#: src/l10n_glossary/main.py:573
+#: src/l10n_glossary/main.py:574
 #, python-brace-format
 msgid "{} new terms merged"
 msgstr ""
 
-#: src/l10n_glossary/main.py:579
+#: src/l10n_glossary/main.py:580
 #, python-brace-format
 msgid "Export as {}"
 msgstr ""
 
-#: src/l10n_glossary/main.py:594
+#: src/l10n_glossary/main.py:595
 msgid "Select PO/TS file to check"
 msgstr ""
 
-#: src/l10n_glossary/main.py:596
+#: src/l10n_glossary/main.py:597
 msgid "Translation files"
 msgstr ""
 
-#: src/l10n_glossary/main.py:610
+#: src/l10n_glossary/main.py:611
 msgid "No inconsistencies found!"
 msgstr ""
 
-#: src/l10n_glossary/main.py:619
+#: src/l10n_glossary/main.py:620
 msgid "Consistency Issues"
 msgstr ""
 
-#: src/l10n_glossary/main.py:625
+#: src/l10n_glossary/main.py:626
 msgid "Close"
 msgstr ""
 
-#: src/l10n_glossary/main.py:641
+#: src/l10n_glossary/main.py:642
 #, python-brace-format
 msgid "Expected: {expected} — Found: {found}"
 msgstr ""
 
-#: src/l10n_glossary/main.py:650
+#: src/l10n_glossary/main.py:651
 msgid "Error"
 msgstr ""
 
-#: src/l10n_glossary/main.py:651 src/l10n_glossary/main.py:656
+#: src/l10n_glossary/main.py:652 src/l10n_glossary/main.py:657
 msgid "OK"
 msgstr ""
 
-#: src/l10n_glossary/main.py:655
+#: src/l10n_glossary/main.py:656
 msgid "Info"
 msgstr ""
 
-#: src/l10n_glossary/main.py:666
+#: src/l10n_glossary/main.py:667
 msgid "A localization tool by Daniel Nylander"
 msgstr ""
 
-#: src/l10n_glossary/main.py:671
+#: src/l10n_glossary/main.py:672
 msgid ""
 "Translate this app: https://www.transifex.com/danielnylander/l10n-glossary/"
 msgstr ""
 
-#: src/l10n_glossary/main.py:757
+#: src/l10n_glossary/main.py:758
 msgid "Welcome"
 msgstr ""
 
-#: src/l10n_glossary/main.py:763
+#: src/l10n_glossary/main.py:764
 msgid "Welcome to L10n Glossary"
 msgstr ""
 
-#: src/l10n_glossary/main.py:765
+#: src/l10n_glossary/main.py:766
 msgid ""
 "Manage translation glossaries for consistent translations.\n"
 "\n"
@@ -281,6 +281,6 @@ msgid ""
 "✓ Share glossaries with teams"
 msgstr ""
 
-#: src/l10n_glossary/main.py:768
+#: src/l10n_glossary/main.py:769
 msgid "Get Started"
 msgstr ""
