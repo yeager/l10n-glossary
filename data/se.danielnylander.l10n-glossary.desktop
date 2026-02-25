@@ -8,3 +8,4 @@ Terminal=false
 Type=Application
 Categories=Development;Translation;
 Keywords=glossary;localization;l10n;translation;terms;
+StartupWMClass=se.danielnylander.l10n-glossary
